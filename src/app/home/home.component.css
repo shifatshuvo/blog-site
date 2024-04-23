@@ -1,0 +1,27 @@
+.blog-description {
+  height: 74px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  line-height: 18px; /* fallback */
+  /* max-height: 48px;  */
+  /* fallback */
+}
+
+.m-div {
+  height: 500px;
+  position: relative;
+}
+
+.card-div {
+  position: relative;
+}
+
+.readMore-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

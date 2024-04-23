@@ -1,0 +1,138 @@
+{
+  "creator": [
+    {
+      "name": "Shifat",
+      "email": "shifat@g",
+      "password": "11",
+      "id": 1
+    },
+    {
+      "name": "Abc Khan",
+      "email": "ab@user.com",
+      "password": "22",
+      "id": 2
+    },
+    {
+      "name": "Rayhan Sikder",
+      "email": "rayhan@gmail.com",
+      "password": "33",
+      "id": 3
+    },
+    {
+      "name": "Alina",
+      "email": "alina@test.com",
+      "password": "12",
+      "id": 4
+    },
+    {
+      "name": "Ena",
+      "email": "ena@test",
+      "password": "11",
+      "id": 5
+    },
+    {
+      "name": "Shanto",
+      "email": "shanto@test",
+      "password": "12",
+      "id": 6
+    },
+    {
+      "name": "dd",
+      "email": "dd@d",
+      "password": "33",
+      "id": 7
+    }
+  ],
+  "blogs": [
+    {
+      "titleName": "X-Man New chapter",
+      "category": "movie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Blue_Valentine_film.jpg",
+      "description": "Next level movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 1,
+      "creatorName": "Shifat",
+      "id": 3
+    },
+    {
+      "titleName": "Hollywood Special",
+      "category": "Romantic movie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Blue_Valentine_film.jpg",
+      "description": "Love movie very good.. hhhhh hhhh hhhh hhh hhhhhhh hhhh hhhh hhh hhhhhhh hhhhhh hhhh hhh hhhhhhhhhh hhh hhhhhh hhhh hhhhhhhm m mmmm mmmm mmmm mm mm mmmm mmmmmm m mmm hh good.. hhhhh hhhhhhhh hhhhhhhhhh hhhhhhhh hhh hhhhhhh hhhhhh hhhh hhh hhhhhh hhhh hhh hhhhhh hhhh hhhhhhhm m mmmmmmmm mmmm mm mm mmmm mmmmmm m mmm hh",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 6
+    },
+    {
+      "titleName": "Bollywood Special 11",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "id": 5,
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder"
+    },
+    {
+      "titleName": "Bollywood Special",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 5
+    },
+    {
+      "titleName": "Bollywood Special",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 5
+    },
+    {
+      "titleName": "Bollywood Special",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 5
+    },
+    {
+      "titleName": "Bollywood Special",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 5
+    },
+    {
+      "titleName": "Bollywood Special",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 5
+    },
+    {
+      "titleName": "Bollywood Special",
+      "category": "Bollywood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Dhoom_3_Film_Poster.jpg/220px-Dhoom_3_Film_Poster.jpg",
+      "description": "Action movie.. Lot of action in this movie, you will love to watch in hall with your friends. Lot of action in this movie, you will love to watch in hall with your friends.",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 5
+    },
+    {
+      "titleName": "Super Action Movie Dhamaka",
+      "category": "Action Movie",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/the-witcher-n-s3-e4-00-28-49-08-64c2d4097437c.jpg?crop=0.502xw:1.00xh;0.266xw,0&resize=1200:*",
+      "description": "The witcher bla blaa bla blaa bla blaa bla blaa bla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaabla blaa",
+      "creatorId": 3,
+      "creatorName": "Rayhan Sikder",
+      "id": 7
+    }
+  ]
+}

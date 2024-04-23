@@ -1,0 +1,29 @@
+<div class="bloglist-wraper">
+  <h1 class="text-3xl font-semibold text-red-800 mt-8 mb-8 text-center">Latest Blogs</h1>
+
+  <div class="grid grid-cols-4 gap-9 my-12">
+    <div *ngFor="let item of latestBlog" class="h- bg-gray-200 shadow-xl border border-gray-300 rounded-md m-div">
+      
+        <img class="w-72 h-64 -object-cover rounded-t-md" src="{{item.image}}" alt="">
+      
+      <div class="blog-details m-2 space-y-3">
+        <a routerLink="/details/{{item.id}}">
+          <p class="name-head font-semibold text-xl hover:text-blue-700">{{item.titleName}}</p>
+        </a>
+        <div class="blog-category font-semibold text-gray-600">
+          <h6>Category: <span class="text-gray-500">{{item.category}}</span></h6>
+        </div>
+        <p>January 7, 2023 by <span class="text-blue-700 font-semibold">{{item.creatorName}}</span></p>
+        <div class="blog-description">
+          <p class="break-words text-gray-700">{{item.description}}</p>
+        </div>
+      </div>
+      
+        <a class="w-full bg-gray-400 text-center p-2 text-white hover:text-gray-100 hover:bg-indigo-500 rounded-b-md readMore-button" routerLink="/details/{{item.id}}">
+          Read More
+        </a>
+      
+    </div>
+    
+  </div>
+</div>

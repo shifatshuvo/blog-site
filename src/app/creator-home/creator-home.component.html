@@ -1,0 +1,36 @@
+<div class="blog-list">
+  <h1 class="text-3xl font-semibold">Your Blog List</h1>
+  <p class="b-msg">{{blogMessage}}</p>
+
+  <div class="blog-list-div">
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Title Name</th>
+          <th>Category</th>
+          <th>Description</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+        <tr *ngFor="let item of creatorBlogList">
+          <td><img src="{{item.image}}" alt="blog-image"></td>
+          <td>{{item.titleName}}</td>
+          <td>{{item.category}}</td>
+          <td class="description">{{item.description}}</td>
+
+          <td>
+            <div class="buttons">
+              <fa-icon class="delete-button" (click)="deleteBlog(item.id)" [icon]="icon"></fa-icon>
+            <a routerLink="/creator-update-blog/{{item.id}}">
+              <fa-icon class="edit-button" [icon]="editIcon"></fa-icon>
+            </a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

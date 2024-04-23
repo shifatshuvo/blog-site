@@ -1,0 +1,10 @@
+.create-blog h1 {
+  text-align: center;
+  color: brown;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.create-blog {
+  text-align: center;
+}

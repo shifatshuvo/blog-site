@@ -1,0 +1,32 @@
+<div class="creator-auth">
+  <div *ngIf="!showLogin" class="signup">
+    <h1 class="text-3xl font-semibold">Creator Sign-up</h1>
+    <form
+      #creatorSignUp="ngForm"
+      (ngSubmit)="signUp(creatorSignUp.value)"
+      class="common-form"
+    >
+      <input class="form-input" type="text" ngModel name="name" placeholder="Enter Name" />
+      <input class="form-input" type="email" ngModel name="email" placeholder="Enter Email" />
+      <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password" />
+      <button class="form-button">Sign Up</button>
+      <p class="auth-toggle-link" (click)="openLogin()">Already have account? Click to login</p>
+    </form>
+  </div>
+
+  <!-- Login area -->
+  <div *ngIf="showLogin" class="login">
+    <h1 class="text-3xl font-semibold">Creator Login</h1>
+    <p class="error-msg">{{authError}}</p>
+    <form
+      #creatorLogin="ngForm"
+      (ngSubmit)="login(creatorLogin.value)"
+      class="common-form"
+    >
+      <input class="form-input" type="email" ngModel name="email" placeholder="Enter Email" />
+      <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password" />
+      <button class="form-button">Login</button>
+      <p class="auth-toggle-link" (click)="openSignUp()">Don't have account? Click to Create account</p>
+    </form>
+  </div>
+</div>

@@ -3,14 +3,36 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { CreatorAuthComponent } from './creator-auth/creator-auth.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CreatorHomeComponent } from './creator-home/creator-home.component';
+import { CreatorCreateBlogComponent } from './creator-create-blog/creator-create-blog.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CreatorUpdateBlogComponent } from './creator-update-blog/creator-update-blog.component';
+import { BlogDetailsComponent } from './blog-details/blog-details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    CreatorAuthComponent,
+    CreatorHomeComponent,
+    CreatorCreateBlogComponent,
+    CreatorUpdateBlogComponent,
+    BlogDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

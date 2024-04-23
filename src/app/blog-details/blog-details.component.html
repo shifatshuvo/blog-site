@@ -1,0 +1,13 @@
+<div class="my-12 mx-8 space-y-8" *ngIf="blogData">
+  <div>
+    <img class="w-full h-72 object-contain" src="{{blogData.image}}" alt="">
+  </div>
+  <div class="space-y-3 text-center">
+    <p class="text-2xl font-bold">{{blogData.titleName}}</p>
+    <p><span class="font-semibold pr-2">Category:</span> <span class="text-gray-500 font-semibold">{{blogData.category}}</span></p>
+    <p><span class="font-semibold mr-2">Creator:</span> <span class="font-semibold text-gray-500">{{blogData.creatorName}}</span></p>
+  </div>
+  <div class="mt-4">
+    <p class=""><span class="font-semibold mr-4">Description:</span><span class="text-gray-800">{{blogData.description}}</span></p>
+  </div>
+</div>

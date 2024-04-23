@@ -1,0 +1,37 @@
+<div class="update-blog">
+  <h1 class="text-3xl font-semibold">Update Blog</h1>
+  <p class="b-msg">{{blogMessage}}</p>
+  <form class="common-form" #updateBlog="ngForm" (ngSubmit)="submit(updateBlog.value)">
+    <input
+      class="form-input"
+      type="text"
+      ngModel="{{blogData?.titleName}}"
+      name="titleName"
+      placeholder="Enter Title Name"
+    />
+
+    <input
+      class="form-input"
+      type="text"
+      ngModel="{{blogData?.category}}"
+      name="category"
+      placeholder="Enter Category"
+    />
+    <input
+      class="form-input"
+      type="text"
+      ngModel="{{blogData?.image}}"
+      name="image"
+      placeholder="Enter img url"
+    />
+    <textarea [rows]="4"
+      class="form-input"
+      type="text"
+      ngModel="{{blogData?.description}}"
+      name="description"
+      placeholder="Enter Description"
+    ></textarea>
+
+    <button class="form-button">Update Blog</button>
+  </form>
+</div>

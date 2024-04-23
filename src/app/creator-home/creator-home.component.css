@@ -1,0 +1,60 @@
+.blog-list {
+  margin-top: 80px;
+  color: brown;
+  text-align: center;
+}
+
+.blog-list-div {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  text-align: left;
+  color: brown;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid brown;
+  padding: 10px;
+  /* min-height: 160px; */
+}
+
+.description {
+  width: 500px;
+  word-break: normal;
+  /* overflow-y:scroll; */
+  /* height: 200px; */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.delete-button {
+  font-size:x-large;
+  color: rgba(129, 129, 129, 0.849);
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: red;
+}
+
+.edit-button {
+  color: rgba(0, 128, 0, 0.753);
+  margin-left: 12px;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  color: orange;
+}

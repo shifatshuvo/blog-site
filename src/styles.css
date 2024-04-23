@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  /* width: full; */
+  /* margin-left: 2%;
+  margin-right: 5%; */
+}
+
+.common-form {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid brown;
+  color: brown;
+}
+textarea.form-input {
+  height: auto;
+}
+
+.form-button {
+  height: 35px;
+  border: 1px solid brown;
+  cursor: pointer;
+  color: brown;
+}
+
+.form-button:hover {
+  color: blue;
+}
+
+.b-msg {
+  color: green;
+}

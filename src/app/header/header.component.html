@@ -1,0 +1,19 @@
+<nav class="nav">
+  <h1><a routerLink="/">Cene-Blog</a></h1>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/creator-auth">Creator</a></li>
+      <li><a *ngIf="!show" routerLink="#">{{creatorName | titlecase}}</a></li>
+      <li><a *ngIf="!show" (click)="logOut()" class="cursor-pointer">Logout</a></li>
+      <li><a *ngIf="show" routerLink="/creator-auth">Login</a></li>
+    </ul>
+
+    <ul *ngSwitchCase="'creator'">
+      <li><a routerLink="/creator-home">Blog List</a></li>
+      <li><a routerLink="/creator-create-blog">Create Blog</a></li>
+      <li><a href="#">{{creatorName | titlecase}}</a></li>
+      <li class="cursor-pointer"><a (click)="logOut()">Logout</a></li>
+    </ul>
+  </div>
+</nav>
